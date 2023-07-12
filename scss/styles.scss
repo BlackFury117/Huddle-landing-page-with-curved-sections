@@ -177,41 +177,96 @@
 
 /// THIRD SECTION ///
 
-.third-container{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr;
-  gap: 0px 0px;
-  grid-auto-flow: row;
-  grid-template-areas:
-    "flowing-img flowing-text";
-  padding: 0 5rem 0 5rem;
+.third-section{
+  margin-bottom: 4rem;
 
-  .flowing-img{
-    justify-self: end;
-    align-self: center;
-    grid-area: flowing-img;
-    padding: 2rem 0;
-  }
-
-  .img-flow{
-    width: 100%;
-  }
+  .third-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "flowing-img flowing-text";
+    padding: 0 5rem 0 5rem;
   
-  .flowing-text{
-    justify-self: start;
-    align-self: center;
-    grid-area: flowing-text;
-    padding: 0 0 0 2rem;
-  }
+    .flowing-img{
+      justify-self: end;
+      align-self: center;
+      grid-area: flowing-img;
+      padding: 2rem 0;
+    }
   
-  h3{
-    @include heading;
-  }
-
-  .paragraph-flow{
-    color: $text-color;
+    .img-flow{
+      width: 100%;
+    }
+    
+    .flowing-text{
+      justify-self: start;
+      align-self: center;
+      grid-area: flowing-text;
+      padding: 0 0 0 2rem;
+    }
+    
+    h3{
+      @include heading;
+    }
+  
+    .paragraph-flow{
+      color: $text-color;
+    }
   }
 }
 
 /// FOURTH SECTION ///
+
+.fourth-section{
+  margin-bottom: 4rem;
+
+  .second-bg-desktop{
+    display: block;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .another-bg-img{
+    background-color: #f6fbff;
+  }
+
+  .fourth-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "user-text user-img";
+    padding: 0 5rem 0 5rem;
+
+    .user-text {
+      justify-self: start;
+      align-self: center;
+      grid-area: user-text;
+      padding-right: 3rem;
+    }
+
+    h4{
+      @include heading;
+    }
+
+    .paragraph-user{
+      color: $text-color;
+    }
+    
+    .user-img {
+      justify-self: end;
+      align-self: center;
+      grid-area: user-img;
+      padding: 0 2rem;
+    }
+
+    .img-user{
+      width: 100%;
+    }
+  }
+}
