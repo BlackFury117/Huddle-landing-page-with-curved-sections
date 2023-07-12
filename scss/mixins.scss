@@ -15,3 +15,9 @@
         color: #fd53c0;
     }
 }
+
+@mixin heading{
+    font-size: 2rem;
+    color: #01262f;
+    margin-bottom: 1rem;
+}
