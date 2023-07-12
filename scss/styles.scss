@@ -288,3 +288,116 @@
     }
   }
 }
+
+                       /// FOOTER SECTION ///
+/// FOOTER SECTION ///
+
+.footer-section{
+  
+  .third-bg-desktop{
+    display: block;
+    width: 100%;
+    object-fit: cover;
+  }
+  .footer-container {
+    background-color: $main-color;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 2rem 5rem 5rem 5rem;
+
+    .column {
+      display: flex;
+      flex-direction: column;
+    }
+    
+    .column1 {
+      flex: 1;
+      padding-right: 30rem;
+    }
+    
+    .column2 {
+      flex: 1;
+    }
+
+    .logo-white{
+      margin-bottom: 1rem;
+    }
+
+    .lorem-1{
+      margin-bottom: 1rem;
+    }
+
+    .lorem-2{
+      font-size: .900rem;
+      color: #fff;
+    }
+
+    .num{
+      color: #fff;
+      font-size: .900rem;
+      padding-left: .500rem;
+    }
+
+    .phone{
+      margin-bottom: 1rem;
+    }
+
+    .mailing{
+      margin-bottom: 3rem;
+    }
+
+    .mail{
+      font-size: .900rem;
+      color: white;
+      padding-left: .500rem;
+    }
+
+    .icon{
+      margin-right: 1rem;
+    }
+
+    .news{
+      margin-bottom: 1rem;
+    }
+
+    .newsletter{
+      color: #fff;
+      font-size: 1.25rem;
+      font-weight: 600;
+      text-transform: uppercase;
+    }
+
+    .receive-0{
+      margin-bottom: 1rem;
+    }
+
+    .receive{
+      color: #fff;
+      font-size: .900rem;
+    }
+
+    #input{
+      padding: 15px;
+      border-radius: 7px;
+      height: 30px;
+    }
+
+    .subscribe{
+      @include btn-subscribe;
+    }
+
+    .input-error {
+      border: 1px solid red;
+    }
+
+    #error-message{
+      display: none;
+      margin-top: .500rem;
+      color: red;
+      font-size: .700rem;
+    }
+  }
+}
+                      

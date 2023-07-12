@@ -21,3 +21,19 @@
     color: #01262f;
     margin-bottom: 1rem;
 }
+
+@mixin btn-subscribe{
+    font-size: .700rem;
+    font-weight: 600;
+    border-radius: 6px;
+    color: #fff;
+    background-color: #fd53c0;
+    padding: .450rem 1.5rem;
+    margin-left: .400rem;
+
+    &:hover{
+        color: #fd53c0;
+        background-color: transparent;
+        border: 1px solid #fd53c0;
+    }
+}
