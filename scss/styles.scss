@@ -270,3 +270,21 @@
     }
   }
 }
+
+/// FIFTH SECTION ///
+
+.fifth-section{
+  text-align: center;
+  margin: 0 auto 5rem auto;
+  
+  .fifth-container{
+    h5{
+      @include heading;
+      margin-bottom: 2.5rem;
+    }
+  
+    .btn-started-2{
+      @include btn-started-1;
+    }
+  }
+}
