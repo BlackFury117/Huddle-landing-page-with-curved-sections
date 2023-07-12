@@ -37,8 +37,9 @@
       }
 
       .btn:hover{
-        color: #fd91d6;
-        border: 2px solid #fd91d6;
+        background-color: $btn-border-color;
+        color: whitesmoke;
+        border: 2px solid whitesmoke;
       }
     }
 }
@@ -123,15 +124,17 @@
 /// SECOND SECTION ///
 
 .second-section{
-  background-image: url(/images/bg-section-top-desktop-1.svg);
-  // background-color: #f6fbff;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  background-position-x: right;
-  // min-height: 100vh;
-  // min-width: 100vw;
   margin-bottom: 4rem;
+
+  .bg-desktop{
+    display: block;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .another-bg-img{
+    background-color: #f6fbff;
+  }
 
   .second-container{  
     display: grid;
@@ -141,9 +144,9 @@
     grid-auto-flow: row;
     grid-template-areas:
       "grow-text grow-img";
-    margin: 0 5rem 0 5rem;
-  
-    .grow-text {
+    padding: 0 5rem 0 5rem;
+
+    .grow-text{
       justify-self: start;
       align-self: center;
       grid-area: grow-text;
@@ -163,7 +166,7 @@
       justify-self: end;
       align-self: center;
       grid-area: grow-img;
-      padding: 2rem;
+      padding: 0 2rem;
     }
 
     .img-grow{
