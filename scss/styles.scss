@@ -190,6 +190,10 @@
     object-fit: cover;
   }
 
+  .bg-desktop-2{
+    display: none;
+  }
+
   .another-bg-img{
     background-color: #f6fbff;
   }
@@ -228,6 +232,45 @@
 
     .img-grow{
       width: 100%;
+    }
+  }
+}
+
+@include mobile-view{
+  .second-section{
+    margin-top: 4.5rem;
+
+    .bg-desktop{
+      display: none;
+    }
+
+    .bg-desktop-2{
+      display: block;
+      width: 100%;
+      object-fit: cover;
+    }
+
+    .second-container{
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr 1fr;
+      grid-template-areas:
+      "grow-img"
+      "grow-text";
+      padding: 1.5rem 2rem 0 2rem;
+
+      .grow-img{
+        justify-self: center;
+        padding: 0 1rem;
+      }
+
+      .grow-text{
+        text-align: center;
+        padding-right: 0;
+      }
+
+      h2{
+        font-size: 1.5rem;
+      }
     }
   }
 }
