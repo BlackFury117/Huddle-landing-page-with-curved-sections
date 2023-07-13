@@ -318,6 +318,33 @@
   }
 }
 
+@include mobile-view{
+  .third-section{
+    .third-container{
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr 1fr;
+      grid-template-areas:
+      "flowing-img"
+      "flowing-text";
+      padding: 0 2rem 0 2rem;
+
+      .flowing-img{
+        padding: 0 1rem; 
+      }
+
+      .flowing-text{
+        text-align: center;
+        justify-self: center;
+        padding: 0;
+      }
+
+      h3{
+        font-size: 1.5rem;
+      }
+    }
+  }
+}
+
 /// FOURTH SECTION ///
 
 .fourth-section{
