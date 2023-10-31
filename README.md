@@ -12,10 +12,10 @@ This is a solution to the [Huddle landing page with curved sections challenge on
 - CSS Grid
 - Mobile-first workflow
 
-Preview it here - [Huddle landing page with curved sections](https://blackfury117.github.io/Huddle-landing-page-with-curved-sections/) <br><br>
+Preview it here - [Huddle landing page with curved sections](https://id-dev3.github.io/Huddle-landing-page-with-curved-sections/) <br><br>
 
 ## Author
 
-- Website - [Black Fury](https://blackfury117.github.io/)
+- Website - [Idris](https://id-dev3.github.io/)
 - Frontend Mentor - [@BlackFury117](https://www.frontendmentor.io/profile/BlackFury117)
-- Twitter - [@blackfury117](https://www.twitter.com/blackfury117)
+- Twitter - [@id_dev3](https://www.twitter.com/id_dev3)
